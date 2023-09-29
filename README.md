@@ -1,2 +1,3 @@
-#  Curso propedeutico: Introducción a la programación
-Página del Curso Propedéutico de Introducción a la programación impartido a estudiantes de la Universidad del Mar, Campus Huatulco, Oaxaca, México.
+# Programación Uno
+
+Página del curso <b>Programación Uno</b> impartido a estudiantes de la <b>Licenciatura en Actuaría</b> en la <b>Universidad del Mar, Campus Huatulco, Oaxaca, México.</b>    
