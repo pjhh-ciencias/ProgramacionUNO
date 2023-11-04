@@ -16,29 +16,20 @@
 
     
 
-   <!-- Next part is for new coomands -->
-   <script>
-    window.MathJax = {
-      tex: {
-        macros: {
-          sen: "\\operatorname{sen}",
-          seg: ["\\overrightarrow{#1}", 1]
-        },
-        tags: "ams" /* this part is for numbered equations */
-      }
-    };
-  </script>
 
-  <!-- This part is for using single $ for latex input, instead of \(\) -->
-  <script>
-      MathJax = {
-      tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
+    <!-- Next part is for new coomands -->
+    <script>
+      window.MathJax = {
+        tex: {
+          macros: {
+            sen: "\\operatorname{sen}",
+            seg: ["\\overrightarrow{#1}", 1],
+            id: "\\operatorname{id}",
           },
-      svg: {
-          fontCache: 'global'
-      }
-  };
+          tags: "ams", /* this part is for numbered equations */
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+      };
     </script>
 
     
@@ -849,13 +840,37 @@
       </div>
 
       <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
-       <p></p>
+       <p>Escribe un programa en Python que solicite al usuario un número entero positivo $N$ menor 
+        o igual que $10^{5}$ (validar entrada) y encuentre e imprima el número entero positivo
+        más pequeño $M$ tal que el producto de sus dígitos sea igual a $N$. 
+       </p>
+        
+      <p>Por ejemplo si  $N=10$, entonces el programa debería imprimir $25$ pues $25$ es
+        el número entero positivo más pequeño tal que $2\times 5=10$. 
+      </p>
+
       </div>
 
       <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
-       <p></p>
+       <p>Un excelente día de verano, dos estudiantes de Actuaría nadaban en una de 
+        las hermosas playas de Huatulco e iban recolectando ostiones. Habían estado nadando
+        durante dos horas y luego salieron del agua y decidieron ver quién tenía más ostiones.
+        Sacaron sus basculas (jajaja ¿puedes imaginarte a un estudiante de Actuaria salir 
+        a la playa sin bascula? imposible ¿verdad?) y pesaron sus cestas con ostiones.
+        Escribieron los números resultantes $a_1$ y $b_{1}$ en la arena. Entonces, el segundo
+        estudiante de Actuaría puso todos sus ostiones en la cesta del primero (de modo que
+        su cesta quedó completamente vacía) y pesaron sus canastas nuevamente y anotaron los 
+        números $a_{2}$ y $b_{2}$, respectivamente. Finalmente, el primer estudiante de Actuaría 
+        puso todos sus ostiones en la cesta del segundo estudiante (de modo que su cesta
+        quedó completamente vacía); pesaron las cestas y obtuvieron los números $a_{3}$ y $b_{3}$, respectivamente.
+       </p>
+       <p>
+        Escribe un programa en Python que lea estos datos y determine quien es el ganador, 
+        aquel con el mayor peso de ostiones en su cesta. Los datos deben ser leidos como una lista de listas: 
+        $[[a_{1},b_{1}], [a_{2},b_{2}], [a_{3},b_{3}]]$
+      </p>
       </div>
-
+<!-- 
       <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
        <p></p>
       </div>
@@ -869,8 +884,6 @@
         <p></p>
       </div> -->
       
-      
-
 
 
     
