@@ -743,10 +743,125 @@
       </pre>
       </div>
           
-  
+     
 
-      <!-- <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
-        <p></p>
+      <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
+       <p>Crea un programa en Python que solicite al usuario un  número menor que 50 y luego imprima hacia atras desde $50$ a ese número.</p>
+      </div>
+
+      <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
+       <p>Crea un programa en Python que solicite al usuario números enteros hasta que la suma 
+        de los numeros ingresados sea mayor que $50$. Cada vez que se ingresa un número imprime 
+        la suma acumulada. Cuando la suma sea mayor que $50$ deten el ciclo e imprime esta.
+      </p>
+      </div>
+
+      <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
+       <p>Crea un programa en Python que solicite al usuario que ingrese un número y luego ingrese 
+        un segundo número. Suma estos dos números y enseguida pregunta al usuario si quiere añadir 
+        otro número. Si introducen "Y" o "y" (Yes), pídele que introduzca otro número y sigue añadiendo 
+        números hasta que no respondan "y" o "Y". Una vez que el bucle se haya detenido, muestra el total.
+       </p>
+      </div>
+
+      <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
+        <p>
+          El Dr. Watson ha  ocultado una fórmula secreta para un nuevo tipo de combustible. 
+          Sin embargo, ha dejado una serie de instrucciones codificadas para quien desee encontrarla:
+        </p>
+        <p>
+        Cada instrucción es una secuencia de cinco dígitos que representa una dirección hacia donde girar y
+        el número de pasos a dar en esa misma dirección.
+        <ul>
+        <li>Los primeros dos dígitos representan la dirección para girar:</li><br>
+          <ol>
+            <li>Si su suma es impar, entonces se tiene que girar hacia la  izquierda.</li><br>
+            <li>Si su suma es par y no cero, entonces se debe girar hacia la derecha.</li><br>
+            <li>Si su suma es cero, entonces la dirección para girar es la misma que la instrucción anterior.</li><br>
+          </ol>
+          <li>Los tres dígitos restantes representan el número de pasos a dar que siempre será al menos de $10$.</li><br>
+        </ul>
+        <p>Escribe un programa en Python que lea una lista con las instrucciones codificadas del Dr. Watson e imprima 
+          en distintas  líneas  la decodificación de cada una de las  instrucciones: <em>derecha</em> o <em>izquierda</em>,
+          seguido de un sólo espacio y a continuación el número de pasos a seguir en esa dirección.
+          <!-- Finalmente, implemente el 
+          módulo  Turtle para mostrar los movimientos que se tienen que realizar.  -->
+        </p>
+      </div>
+      
+      <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
+       <p>
+        El zodíaco Chino asigna animales a los años en un ciclo de $12$ años. En la siguiente tabla
+        se muestra un ciclo de $12$ años. El patrón se repite a partir de ahí, siendo $2012$ otro 
+        año del dragón y $1999$ otro año de la liebre.
+       </p>
+
+        <center>
+        <img src="../Imagenes/Zodiaco_chino.jpg" alt="", width="50%" height="auto">
+        </center>
+        <p>
+          Escriba un programa en Python que solicite al usuario un año y muestre el animal asociado
+          con ese año. El  programa debe funcionar correctamente para cualquier año mayor o igual a
+          cero, no solo para los enumerados en la tabla.
+        </p>
+      </div>
+
+      <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
+       <p>La siguiente fórmula se puede utilizar para determinar el día de la semana para el $1$
+        de enero en un año determinado:
+       </p>
+       
+       $$ \mathrm{dia\_semana}= \left( \mathrm{año} + \left \lfloor \frac{\mathrm{año} - 1}{4} \right\rfloor - \left \lfloor \frac{\mathrm{año} - 1}{100} \right\rfloor  + \left \lfloor \frac{\mathrm{año} - 1}{400} \right\rfloor  \right)\% 7    $$
+       
+       <p>El resultado calculado por esta fórmula es un número entero que representa el día de la semana. 
+        El domingo está representado por $0$. Los días restantes de la semana siguen en secuencia hasta
+        el sábado, que está representado por $6$.
+       </p>
+       
+       <p>La fórmula anterior para escribir un programa solicite al usuario un  año   e informe el día 
+        de la semana para el $1$ de enero de ese año La salida del  programa debe incluir el nombre 
+        completo del día de la semana, no solo el número entero devuelto por la fórmula.
+       </p>
+      </div>
+
+      <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
+       <p>Si $h$ es la altura en metros y $w$ el peso en kilogramos de una persona,  
+        se define el <b>índice de masa corporal</b> (<b>IMC</b>)  como:
+      </p>
+        \begin{equation}\label{eqn:imc}
+        \text{IMC}:=\frac{w}{h^{2}}
+        \end{equation}
+       
+       <p>Escribe un programa en Python que solicite al usuario que ingrese su nombre, altura 
+        (en metros) y peso (en kilogramos). Luego, utiliza la  fórmula \eqref{eqn:imc} para calcular
+        el IMC del usuario.
+        <!-- Enseguida con ayuda de la  tabla evalúa el estado de nutrición del usuario de acuerdo a la columna correspondiente su IMC 
+        
+        \begin{figure}[h!]
+        \centering
+        \includegraphics[width=.5\columnwidth]{imc}
+        \end{figure} -->
+        Imprime un mensaje adecuado  indicando el nombre del usuario y su IMC  correspondiente:
+        
+        <center> ``Hola Benito tu índice de masa corporal es: $22.2$''</center>
+        
+        </p>
+      </div>
+
+      <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
+       <p></p>
+      </div>
+
+      <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
+       <p></p>
+      </div>
+
+      <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
+       <p></p>
+      </div>
+
+      <div class="nota-box"><h1 class="number-title-practica"> Práctica</h1>
+       <p></p>
       </div>
           
 
